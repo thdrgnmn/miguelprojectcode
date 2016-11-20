@@ -1,0 +1,150 @@
+#container {
+    background-color: #66b3ff;
+/*    background-image: url(images/wooden.jpg);*/
+    width: 100%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    color: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    
+}
+body {
+    background-image: url(images/wooden.jpg);
+/*    background-color: #e6e6e6;*/
+    text-align: right;
+/*    background-color: #66b3ff;*/
+    width: 100%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    vertical-align: top;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+#nav {
+    font-family: 'Raleway', sans-serif;
+    width: 470px;
+    display: inline-block;
+    height: 40px;
+    background-color:  #80bfff;
+    text-align: center; 
+    border-radius: 25px;
+    margin:0px 0px 5px auto;
+}
+
+
+nav li {
+    color: white;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    margin:  0px;
+    transition: 1s;
+    height:40px;
+    line-height: 40px;
+    background-color:  #80bfff;
+    padding:0px 10px;
+
+}
+
+
+nav li:hover {
+    color: black;
+    background-color: #70E4EF; 
+    transform : scale(1.05);
+}
+
+ #home {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;  
+         } 
+
+#gallery {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+#sidebar {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    width: 200px;
+    background-color: #80bfff;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;    
+}
+
+
+#main {
+    font-family: 'Raleway', sans-serif;
+    width: calc(90% - 200px);
+    margin-left: 30px;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    width: 500px;
+    display: inline-block;
+/*    align: auto;*/
+}
+
+/*Ask Ian about images in this section to look one next to the other */
+
+figure {
+    display: inline-block;
+}
+
+
+
+figcaption {
+    color: #ff0000;
+}
+
+#flagicon {
+    width: 20px;
+    height: 10px;
+}
+
+#footer {
+    position: relative;
+    text-align: center;
+/*    height: 40px;*/
+    margin-top: 150px;
+    background-color: #80bfff;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.here {
+    text-decoration: underline;
+}
